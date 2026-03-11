@@ -116,7 +116,7 @@ between foreground and background is >= 7:1)."
  '(default
     ((t (:family "Envy Code R" :foundry "ENVY" :slant normal :weight normal :height 120 :width normal
                  :foreground "white" :background "black"))))
- '(cursor ((((class color) (min-colors 89)) :background "#ffffff")))
+ '(cursor ((((class color) (min-colors 89)) :background "#ffff00")))
  '(fixed-pitch ((t (:family "Monospace"))))
  '(variable-pitch ((((type w32)) (:foundry "outline" :family "Arial")) (t (:family "Sans Serif"))))
  '(escape-glyph ((((class color) (min-colors 89)) :foreground "#e7a59a")))
@@ -131,11 +131,11 @@ between foreground and background is >= 7:1)."
 
  ;; '(font-lock-builtin-face ((((class color) (min-colors 89)) :inherit modus-theme-bold :foreground "")))
  ;; '(font-lock-comment-delimiter-face ((((class color) (min-colors 89)) :inherit font-lock-comment-face)))
- ;; '(font-lock-comment-face ((((class color) (min-colors 89)) :inherit modus-theme-slant :foreground "Cyan2")))
+ ;; '(font-lock-comment-face ((((class color) (min-colors 89)) :inherit modus-theme-slant :foreground "cyan2")))
  ;; '(font-lock-constant-face ((((class color) (min-colors 89)) :foreground "#00bcff")))
  ;; '(font-lock-doc-face ((((class color) (min-colors 89)) :inherit modus-theme-slant :foreground "#b0d6f5")))
  ;; '(font-lock-function-name-face ((((class color) (min-colors 89)) :foreground "SteelBlue")))
- ;; '(font-lock-keyword-face ((((class color) (min-colors 89)) :inherit modus-theme-bold :foreground "Cyan3")))
+ ;; '(font-lock-keyword-face ((((class color) (min-colors 89)) :inherit modus-theme-bold :foreground "cyan3")))
  ;; '(font-lock-negation-char-face ((((class color) (min-colors 89)) :inherit modus-theme-bold :foreground "#eecc00")))
  ;; '(font-lock-preprocessor-face ((((class color) (min-colors 89)) :foreground "#ff9977")))
  ;; '(font-lock-regexp-grouping-backslash ((((class color) (min-colors 89)) :inherit bold :foreground "#abab00")))
@@ -146,17 +146,17 @@ between foreground and background is >= 7:1)."
  ;; '(font-lock-warning-face ((((class color) (min-colors 89)) :inherit modus-theme-bold :foreground "#dbbe5f")))
  
  '(font-lock-builtin-face ((t (:foreground "#ffaa00"))))
- '(font-lock-comment-delimiter-face ((t (:foreground "Cyan3"))))
- '(font-lock-comment-face ((t (:foreground "Cyan2"))))
+ '(font-lock-comment-delimiter-face ((t (:foreground "cyan3"))))
+ '(font-lock-comment-face ((t (:foreground "cyan2"))))
  '(font-lock-constant-face ((t (:foreground "#00ff00"))))
  '(font-lock-doc-face ((t (:foreground "#Ffffe0"))))
  '(font-lock-function-name-face ((t (:foreground "SteelBlue"))))
- '(font-lock-keyword-face ((t (:foreground "Cyan3"))))
+ '(font-lock-keyword-face ((t (:foreground "cyan3"))))
  '(font-lock-negation-char-face ((t (nil))))
  '(font-lock-preprocessor-face ((t (nil))))
  '(font-lock-regexp-grouping-backslash ((t (:bold t :weight bold))))
  '(font-lock-regexp-grouping-construct ((t (:bold t :weight bold))))
- '(font-lock-string-face ((t (:foreground "#Ffffe0"))))
+ '(font-lock-string-face ((t (:foreground "#ffff00"))))
  '(font-lock-type-face ((t (nil))))
  '(font-lock-variable-name-face ((t (:foreground "cyan"))))
  '(font-lock-warning-face ((t (:bold t :foreground "Red" :weight bold))))
@@ -758,4 +758,5 @@ between foreground and background is >= 7:1)."
 
 
 
-(provide-theme 'deepsky-modus-fade)
+(provide-theme 'deepsky-modus-fade) ;;; deepsky-modus-fade-theme.el ends here.
+
